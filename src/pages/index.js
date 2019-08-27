@@ -34,21 +34,21 @@ class HomeIndex extends Component {
                                 <h3>Наши проекты</h3>
                                 <p>Прочитать тут</p>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
+                            <Link to="/projects" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${pic03})`}}>
                             <header className="major">
                                 <h3>Клиенты</h3>
                                 <p>Прочитать тут</p>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
+                            <Link to="/" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${pic04})`}}>
                             <header className="major">
                                 <h3>Блог</h3>
                                 <p>Прочитать тут</p>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
+                            <Link to="/" className="link primary"></Link>
                         </article>
                         {/*<article style={{backgroundImage: `url(${pic05})`}}>*/}
                             {/*<header className="major">*/}

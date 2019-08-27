@@ -5,7 +5,15 @@ module.exports = {
     description: "A Genesis ..."
   },
   plugins: [
-    'gatsby-plugin-react-helmet',
+      'gatsby-plugin-react-helmet',
+      `gatsby-transformer-remark`,
+      {
+          resolve: `gatsby-source-filesystem`,
+          options: {
+              name: `src`,
+              path: `${__dirname}/src/projects`,
+          },
+    },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
