@@ -10,12 +10,14 @@ import pic10 from '../assets/images/pic10.jpg'
 
 export const query = graphql`
   query MyQuery {
-      allMarkdownRemark {
+      allMarkdownRemark(sort: { fields: [frontmatter___order], order: DESC }) {
           edges {
               node {
-                  frontmatter {
+                  frontmatter{
                       title
                       technologies
+                      description
+                      path
                   }
               }
           }
@@ -23,7 +25,7 @@ export const query = graphql`
   }
 `;
 
-const Landing = ({data}) => (
+const Landing = ({data: { allMarkdownRemark: { edges } }}) => (
     <Layout>
         <Helmet>
             <title>Genesis - Услуги и проекты</title>
@@ -45,72 +47,35 @@ const Landing = ({data}) => (
                 </div>
             </section>
             <section id="two" className="spotlights">
-                <section>
-                    <Link to="/generic" className="image">
-                        <img src={pic08} alt=""/>
-                    </Link>
-                    <div className="content">
-                        <div className="inner">
-                            <header className="major">
-                                <h3>{data.allMarkdownRemark.edges[0].node.frontmatter.title}</h3>
-                            </header>
-                            <p> Такой-то проект.Используются такие-то технологии</p>
-                            <h4>Технологии:</h4>
-                            <ul>
-                                <li>Dolor etiam magna etiam.</li>
-                                <li>Sagittis lorem eleifend.</li>
-                                <li>Felis dolore viverra.</li>
-                            </ul>
-                            <ul className="actions">
-                                <li><Link to="/generic" className="button">Learn more</Link></li>
-                            </ul>
-                        </div>
-                    </div>
-                </section>
-                <section>
-                    <Link to="/generic" className="image">
-                        <img src={pic09} alt=""/>
-                    </Link>
-                    <div className="content">
-                        <div className="inner">
-                            <header className="major">
-                                <h3>Проект 2</h3>
-                            </header>
-                            <p> Такой-то проект.Используются такие-то технологии</p>
-                            <h4>Технологии:</h4>
-                            <ul>
-                                <li>Dolor etiam magna etiam.</li>
-                                <li>Sagittis lorem eleifend.</li>
-                                <li>Felis dolore viverra.</li>
-                            </ul>
-                            <ul className="actions">
-                                <li><Link to="/generic" className="button">Learn more</Link></li>
-                            </ul>
-                        </div>
-                    </div>
-                </section>
-                <section>
-                    <Link to="/generic" className="image">
-                        <img src={pic10} alt=""/>
-                    </Link>
-                    <div className="content">
-                        <div className="inner">
-                            <header className="major">
-                                <h3>Проект 3</h3>
-                            </header>
-                            <p> Такой-то проект.Используются такие-то технологии</p>
-                            <h4>Технологии:</h4>
-                            <ul>
-                                <li>Dolor etiam magna etiam.</li>
-                                <li>Sagittis lorem eleifend.</li>
-                                <li>Felis dolore viverra.</li>
-                            </ul>
-                            <ul className="actions">
-                                <li><Link to="/generic" className="button">Learn more</Link></li>
-                            </ul>
-                        </div>
-                    </div>
-                </section>
+                {edges.map(edge => {
+                    const projects = edge.node.frontmatter
+                    return (
+                        <section>
+                            <Link to="/generic" className="image">
+                                <img src={pic08} alt={projects.title}/>
+                            </Link>
+                            <div className="content">
+                                <div className="inner">
+                                    <header className="major">
+                                        <h3>{projects.title}</h3>
+                                    </header>
+                                    <p>{projects.description}</p>
+                                    <h4>Технологии:</h4>
+                                    <ul>
+                                        {projects.technologies.map(technology => {
+                                            return(
+                                                <li>{technology}</li>
+                                            )
+                                        })}
+                                    </ul>
+                                    <ul className="actions">
+                                        <li><Link to={projects.path} className="button">Подробнее</Link></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </section>
+                    )
+                })}
             </section>
         </div>
 
