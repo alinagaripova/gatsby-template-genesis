@@ -1,4 +1,5 @@
 ---
+name: "project"
 path: "/tovar.link/"
 order: 50
 title: "Tovar.link"

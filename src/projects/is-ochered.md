@@ -1,4 +1,5 @@
 ---
+name: "project"
 path: "/is-ochered/"
 order: 65
 title: "ИС Очередь"

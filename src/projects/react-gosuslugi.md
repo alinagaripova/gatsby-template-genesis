@@ -1,4 +1,5 @@
 ---
+name: "project"
 path: "/react-gosuslugi/"
 order: 30
 title: "react-gosuslugi"

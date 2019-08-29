@@ -1,4 +1,5 @@
 ---
+name: "project"
 path: "/is-mnenie/"
 order: 80
 title: "ИС Мнение"

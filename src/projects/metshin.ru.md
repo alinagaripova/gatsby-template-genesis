@@ -1,4 +1,5 @@
 ---
+name: "project"
 path: "/metshin.ru/"
 order: 60
 title: "Официальный сайт мэра Казани"

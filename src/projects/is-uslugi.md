@@ -1,4 +1,5 @@
 ---
+name: "project"
 path: "/is-uslugi/"
 order: 99
 title: "ИС Услуги"

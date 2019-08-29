@@ -1,4 +1,5 @@
 ---
+name: "project"
 path: "/is-golos/"
 order: 90
 title: "ИС Голос"

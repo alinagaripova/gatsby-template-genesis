@@ -1,4 +1,5 @@
 ---
+name: "project"
 path: "/is-memorial/"
 order: 70
 title: "ИС Мемориал"

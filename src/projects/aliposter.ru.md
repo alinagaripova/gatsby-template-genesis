@@ -1,4 +1,5 @@
 ---
+name: "project"
 path: "/aliposter.ru/"
 order: 40
 title: "Aliposter"

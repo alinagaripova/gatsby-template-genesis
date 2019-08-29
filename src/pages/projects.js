@@ -10,7 +10,7 @@ import pic10 from '../assets/images/pic10.jpg'
 
 export const query = graphql`
   query MyQuery {
-      allMarkdownRemark(sort: { fields: [frontmatter___order], order: DESC }) {
+      allMarkdownRemark(sort: { fields: [frontmatter___order], order: DESC }, filter: {frontmatter: {name: {eq: "project"}}}) {
           edges {
               node {
                   frontmatter{
