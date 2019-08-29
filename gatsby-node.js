@@ -10,7 +10,7 @@ const path = require("path")
 exports.createPages = async function({ actions, graphql, reporter }) {
     const { data } = await graphql(`
     {
-      allMarkdownRemark(sort: {fields: [frontmatter___order], order: DESC}) {
+      allMarkdownRemark(sort: {fields: [frontmatter___order], order: DESC}, filter: {frontmatter: {name: {eq: "project"}}}) {
         edges {
           node {
             frontmatter {

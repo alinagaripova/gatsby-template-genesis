@@ -32,7 +32,7 @@ const Landing = ({data: { allMarkdownRemark: { edges } }}) => (
             <meta name="description" content="Landing Page"/>
         </Helmet>
 
-        <BannerLanding/>
+        <BannerLanding title="Услуги и проекты" description="Lorem ipsum dolor sit amet nullam consequat"/>
 
         <div id="main">
             <section id="one">
