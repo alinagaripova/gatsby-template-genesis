@@ -33,7 +33,7 @@ function Generic ({data}){
     return (
     <Layout>
         <Helmet>
-            <title>Genesis - О нас</title>
+            <title>Genesis - Проекты и услуги</title>
             <meta name="description" content="Generic Page" />
         </Helmet>
         <section id="two" className="spotlights">

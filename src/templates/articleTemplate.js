@@ -1,20 +1,50 @@
-// import React from "react"
-// import { Helmet } from "react-helmet"
-//
-// // import '../css/blog-post.css'; // make it pretty!
-//
-// export default function Template({ data }) {
-//     const { markdownRemark: post } = data
-//     return (
-//         <div className="blog-post-container">
-//             <Helmet title={`Your Blog Name - ${post.frontmatter.title}`} />
-//             <div className="blog-post">
-//                 <h1>{post.frontmatter.title}</h1>
-//                 <div
-//                     className="blog-post-content"
-//                     dangerouslySetInnerHTML={{ __html: post.html }}
-//                 />
-//             </div>
-//         </div>
-//     )
-// }
+import React from 'react'
+import Helmet from 'react-helmet'
+import { graphql, Link} from 'gatsby'
+import Layout from '../components/layout'
+
+import pic11 from '../assets/images/pic11.jpg'
+
+export const query = graphql`
+  query ArticleQuery($path: String!) {
+      markdownRemark(frontmatter: { path: { eq: $path } }) {
+          frontmatter {
+              path
+              title
+              description
+              date(
+                formatString: "DD MMMM YYYY"
+                locale: "ru-RU")
+          }
+      }
+  }
+
+`;
+
+function Generic ({ data }){
+    const frontmatter = data.markdownRemark.frontmatter
+    return(
+    <Layout>
+        <Helmet>
+            <title>Genesis - Новости</title>
+            <meta name="description" content="Generic Page" />
+        </Helmet>
+
+        <div id="main" className="alt">
+            <section id="one">
+                <div className="inner">
+                    <header className="major">
+                        <h1>{frontmatter.title}</h1>
+                    </header>
+                    <p>{frontmatter.date}</p>
+
+                    <span className="image main"><img src={pic11} alt="" /></span>
+                    <p>{frontmatter.description}</p>
+                </div>
+            </section>
+        </div>
+
+    </Layout>
+)}
+
+export default Generic
