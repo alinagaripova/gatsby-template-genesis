@@ -45,10 +45,10 @@ class HomeIndex extends Component {
                         </article>
                         <article style={{backgroundImage: `url(${pic04})`}}>
                             <header className="major">
-                                <h3>Блог</h3>
+                                <h3>Новости</h3>
                                 <p>Прочитать тут</p>
                             </header>
-                            <Link to="/" className="link primary"></Link>
+                            <Link to="/articles" className="link primary"></Link>
                         </article>
                         {/*<article style={{backgroundImage: `url(${pic05})`}}>*/}
                             {/*<header className="major">*/}
