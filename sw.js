@@ -26,21 +26,21 @@ workbox.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-e0bfc8d350720f7cb65c.js"
+    "url": "webpack-runtime-aac14e2bb22fef55c752.js"
   },
   {
-    "url": "app-0f3552669b73f93911ca.js"
+    "url": "app-41881f86df3e404d0db8.js"
   },
   {
     "url": "component---node-modules-gatsby-plugin-offline-app-shell-js-c6829932e48d06a87f44.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "647557662fa2fca94da03ad2916b11e9"
+    "revision": "ca82ee5a2cc3d841e0e16d4ad7de9ce2"
   },
   {
     "url": "page-data/offline-plugin-app-shell-fallback/page-data.json",
-    "revision": "701f4378552619c24b6b99af9c196ccc"
+    "revision": "dacb7b9ec76d60f46fc946a5f7a7d9b9"
   },
   {
     "url": "manifest.webmanifest",
@@ -68,7 +68,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/gatsby-template-genesis/app-0f3552669b73f93911ca.js`))) {
+  if (!resources || !(await caches.match(`/gatsby-template-genesis/app-41881f86df3e404d0db8.js`))) {
     return await fetch(event.request)
   }
 
