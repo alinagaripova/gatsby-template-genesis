@@ -1,5 +1,5 @@
 import React from 'react'
-import { graphql } from 'gatsby'
+import { graphql, Link } from 'gatsby'
 import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import BannerLanding from '../components/BannerLanding'
@@ -42,12 +42,13 @@ const Articles = ({data: { allMarkdownRemark: { edges } }}) => (
                     <div className="grid-wrapper">
                         {edges.map(edge => {
                             const articles = edge.node.frontmatter
+                            console.log()
                             return(
                                 <div className="col-4">
                                     <h3>{articles.title}</h3>
                                     <p>{articles.date}</p>
                                     <div className="col-4"><span className="image fit"><img src={pic08} alt="" /></span></div>
-                                    <blockquote> {articles.pre}<a href={articles.path}>..подробнее</a></blockquote>
+                                    <blockquote> {articles.pre}<Link to={articles.path}>..подробнее</Link></blockquote>
                                 </div>
                             )
                         })}

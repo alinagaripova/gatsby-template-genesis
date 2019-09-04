@@ -49,6 +49,7 @@ const Landing = ({data: { allMarkdownRemark: { edges } }}) => (
             <section id="two" className="spotlights">
                 {edges.map(edge => {
                     const projects = edge.node.frontmatter
+                    console.log(edges)
                     return (
                         <section>
                             <Link to="/generic" className="image">
