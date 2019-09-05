@@ -28,7 +28,7 @@ export const query = graphql`
   }
 `;
 
-const Landing = ({data: { allMarkdownRemark: { edges } }, pageContext, data}) => {
+const Projects = ({data: { allMarkdownRemark: { edges } }, pageContext, data}) => {
     const tags = data.allMarkdownRemark.group
     tags.map(tag => {
         console.log(tag)
@@ -37,7 +37,7 @@ const Landing = ({data: { allMarkdownRemark: { edges } }, pageContext, data}) =>
         <Layout>
             <Helmet>
                 <title>Genesis - Услуги и проекты</title>
-                <meta name="description" content="Landing Page"/>
+                <meta name="description" content="Projects Page"/>
             </Helmet>
 
             <BannerLanding title="Услуги и проекты" description="Мы используем современные технологии. Ниже представлены наши проекты."/>
@@ -58,13 +58,6 @@ const Landing = ({data: { allMarkdownRemark: { edges } }, pageContext, data}) =>
                                             <li><Link to={tag.fieldValue}>{tag.fieldValue}</Link></li>
                                         )
                                     })}
-                                    {/*<li><Link>angular</Link></li>*/}
-                                    {/*<li><Link>go</Link></li>*/}
-                                    {/*<li><Link>javascript</Link></li>*/}
-                                    {/*<li><Link>react</Link></li>*/}
-                                    {/*<li><Link>redis</Link></li>*/}
-                                    {/*<li><Link to="/projects/ruby">ruby</Link></li>*/}
-                                    {/*<li><Link>ruby-on-rails</Link></li>*/}
                                     <li><Link to="/projects">все</Link></li>
                                 </ul>
                             </div>
@@ -120,4 +113,4 @@ const Landing = ({data: { allMarkdownRemark: { edges } }, pageContext, data}) =>
     )
 }
 
-export default Landing
+export default Projects

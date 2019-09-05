@@ -2,19 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5def1295-19a1-40e0-9531-a8f111c1f20b" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/components/Filter.js" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/gatsby-node.js" afterPath="$PROJECT_DIR$/gatsby-node.js" />
+      <change beforePath="$PROJECT_DIR$/src/pages/articles.js" afterPath="$PROJECT_DIR$/src/pages/articles.js" />
       <change beforePath="$PROJECT_DIR$/src/pages/projects.js" afterPath="$PROJECT_DIR$/src/pages/projects.js" />
-      <change beforePath="$PROJECT_DIR$/src/projects/aliposter.ru.md" afterPath="$PROJECT_DIR$/src/projects/aliposter.ru.md" />
-      <change beforePath="$PROJECT_DIR$/src/projects/is-golos.md" afterPath="$PROJECT_DIR$/src/projects/is-golos.md" />
-      <change beforePath="$PROJECT_DIR$/src/projects/is-memorial.md" afterPath="$PROJECT_DIR$/src/projects/is-memorial.md" />
-      <change beforePath="$PROJECT_DIR$/src/projects/is-mnenie.md" afterPath="$PROJECT_DIR$/src/projects/is-mnenie.md" />
-      <change beforePath="$PROJECT_DIR$/src/projects/is-ochered.md" afterPath="$PROJECT_DIR$/src/projects/is-ochered.md" />
-      <change beforePath="$PROJECT_DIR$/src/projects/is-uslugi.md" afterPath="$PROJECT_DIR$/src/projects/is-uslugi.md" />
-      <change beforePath="$PROJECT_DIR$/src/projects/metshin.ru.md" afterPath="$PROJECT_DIR$/src/projects/metshin.ru.md" />
-      <change beforePath="$PROJECT_DIR$/src/projects/react-gosuslugi.md" afterPath="$PROJECT_DIR$/src/projects/react-gosuslugi.md" />
-      <change beforePath="$PROJECT_DIR$/src/projects/tovar.link.md" afterPath="$PROJECT_DIR$/src/projects/tovar.link.md" />
-      <change beforePath="$PROJECT_DIR$/src/templates/tags.js" afterPath="$PROJECT_DIR$/src/templates/tags.js" />
+      <change beforePath="$PROJECT_DIR$/src/templates/tagsTemplate.js" afterPath="$PROJECT_DIR$/src/templates/tagsTemplate.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -28,29 +21,30 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="projects.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="projects.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pages/projects.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="57" column="72" lean-forward="false" selection-start-line="57" selection-start-column="72" selection-end-line="57" selection-end-column="72" />
+            <state relative-caret-position="425">
+              <caret line="25" column="11" lean-forward="true" selection-start-line="23" selection-start-column="10" selection-end-line="25" selection-end-column="11" />
               <folding>
-                <marker date="1567678008954" expanded="true" signature="1065:5415" ph="..." />
-                <marker date="1567678008954" expanded="true" signature="1086:1232" ph="..." />
-                <marker date="1567678008954" expanded="true" signature="1400:5396" ph="..." />
-                <marker date="1567678008954" expanded="true" signature="1435:3692" ph="..." />
-                <marker date="1567678008954" expanded="true" signature="1479:3665" ph="..." />
-                <marker date="1567678008954" expanded="true" signature="1530:1614" ph="..." />
-                <marker date="1567678008954" expanded="true" signature="3750:5377" ph="..." />
+                <element signature="e#0#25#0" expanded="true" />
+                <marker date="1567695503133" expanded="true" signature="1066:4896" ph="..." />
+                <marker date="1567695503133" expanded="true" signature="1087:1234" ph="..." />
+                <marker date="1567695503133" expanded="true" signature="1402:4877" ph="..." />
+                <marker date="1567695503133" expanded="true" signature="1437:3173" ph="..." />
+                <marker date="1567695503133" expanded="true" signature="1481:3146" ph="..." />
+                <marker date="1567695503133" expanded="true" signature="1532:1616" ph="..." />
+                <marker date="1567695503133" expanded="true" signature="3231:4858" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tags.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/templates/tags.js">
+      <file leaf-file-name="tagsTemplate.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/templates/tagsTemplate.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="27" column="1" lean-forward="false" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+            <state relative-caret-position="0">
+              <caret line="30" column="10" lean-forward="false" selection-start-line="30" selection-start-column="10" selection-end-line="30" selection-end-column="10" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -58,11 +52,21 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="Filter.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/Filter.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="gatsby-node.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gatsby-node.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="91" column="24" lean-forward="false" selection-start-line="91" selection-start-column="24" selection-end-line="91" selection-end-column="24" />
+            <state relative-caret-position="594">
+              <caret line="92" column="69" lean-forward="false" selection-start-line="92" selection-start-column="69" selection-end-line="92" selection-end-column="69" />
               <folding />
             </state>
           </provider>
@@ -120,7 +124,6 @@
         <option value="$PROJECT_DIR$/src/pages/index.js" />
         <option value="$PROJECT_DIR$/public/article5/index.html" />
         <option value="$PROJECT_DIR$/public/aliposter.ru/index.html" />
-        <option value="$PROJECT_DIR$/src/pages/articles.js" />
         <option value="$PROJECT_DIR$/gatsby-config.js" />
         <option value="$PROJECT_DIR$/src/projects/is-golos.md" />
         <option value="$PROJECT_DIR$/src/projects/is-memorial.md" />
@@ -134,6 +137,9 @@
         <option value="$PROJECT_DIR$/src/templates/tags.js" />
         <option value="$PROJECT_DIR$/gatsby-node.js" />
         <option value="$PROJECT_DIR$/src/pages/projects.js" />
+        <option value="$PROJECT_DIR$/src/pages/articles.js" />
+        <option value="$PROJECT_DIR$/src/templates/tagsTemplate.js" />
+        <option value="$PROJECT_DIR$/src/components/Filter.js" />
       </list>
     </option>
   </component>
@@ -181,6 +187,12 @@
               <item name="genesis-template" type="b2602c69:ProjectViewProjectNode" />
               <item name="genesis-template" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="genesis-template" type="b2602c69:ProjectViewProjectNode" />
+              <item name="genesis-template" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="genesis-template" type="b2602c69:ProjectViewProjectNode" />
@@ -256,12 +268,12 @@
       <workItem from="1567494729097" duration="14586000" />
       <workItem from="1567582861239" duration="2933000" />
       <workItem from="1567588139843" duration="12916000" />
-      <workItem from="1567671171909" duration="3153000" />
+      <workItem from="1567671171909" duration="6210000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="102036000" />
+    <option name="totallyTimeSpent" value="105093000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1440" height="875" extended-state="6" />
@@ -329,13 +341,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/assets/css/font-awesome.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/assets/css/ie8.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -528,6 +533,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="19" column="124" lean-forward="false" selection-start-line="19" selection-start-column="124" selection-end-line="19" selection-end-column="124" />
+          <folding>
+            <element signature="e#0#38#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -549,6 +557,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
           <caret line="13" column="48" lean-forward="false" selection-start-line="13" selection-start-column="48" selection-end-line="13" selection-end-column="48" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -564,6 +573,7 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="85">
             <caret line="5" column="38" lean-forward="false" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
+            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -653,13 +663,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/articles.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="42" column="44" lean-forward="false" selection-start-line="42" selection-start-column="44" selection-end-line="42" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/templates/projectTemplate.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-170">
@@ -688,37 +691,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gatsby-node.js">
+    <entry file="file://$PROJECT_DIR$/src/pages/articles.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="91" column="24" lean-forward="false" selection-start-line="91" selection-start-column="24" selection-end-line="91" selection-end-column="24" />
+        <state relative-caret-position="212">
+          <caret line="33" column="54" lean-forward="false" selection-start-line="33" selection-start-column="54" selection-end-line="33" selection-end-column="54" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/templates/tags.js">
+    <entry file="file://$PROJECT_DIR$/src/pages/projects.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="27" column="1" lean-forward="false" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+        <state relative-caret-position="425">
+          <caret line="25" column="11" lean-forward="true" selection-start-line="23" selection-start-column="10" selection-end-line="25" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+            <marker date="1567695503133" expanded="true" signature="1066:4896" ph="..." />
+            <marker date="1567695503133" expanded="true" signature="1087:1234" ph="..." />
+            <marker date="1567695503133" expanded="true" signature="1402:4877" ph="..." />
+            <marker date="1567695503133" expanded="true" signature="1437:3173" ph="..." />
+            <marker date="1567695503133" expanded="true" signature="1481:3146" ph="..." />
+            <marker date="1567695503133" expanded="true" signature="1532:1616" ph="..." />
+            <marker date="1567695503133" expanded="true" signature="3231:4858" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gatsby-node.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="92" column="69" lean-forward="false" selection-start-line="92" selection-start-column="69" selection-end-line="92" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/templates/tagsTemplate.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="30" column="10" lean-forward="false" selection-start-line="30" selection-start-column="10" selection-end-line="30" selection-end-column="10" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/projects.js">
+    <entry file="file://$PROJECT_DIR$/src/components/Filter.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="57" column="72" lean-forward="false" selection-start-line="57" selection-start-column="72" selection-end-line="57" selection-end-column="72" />
-          <folding>
-            <marker date="1567678008954" expanded="true" signature="1065:5415" ph="..." />
-            <marker date="1567678008954" expanded="true" signature="1086:1232" ph="..." />
-            <marker date="1567678008954" expanded="true" signature="1400:5396" ph="..." />
-            <marker date="1567678008954" expanded="true" signature="1435:3692" ph="..." />
-            <marker date="1567678008954" expanded="true" signature="1479:3665" ph="..." />
-            <marker date="1567678008954" expanded="true" signature="1530:1614" ph="..." />
-            <marker date="1567678008954" expanded="true" signature="3750:5377" ph="..." />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

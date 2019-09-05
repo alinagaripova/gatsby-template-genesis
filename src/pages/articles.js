@@ -31,7 +31,7 @@ const Articles = ({data: { allMarkdownRemark: { edges } }}) => (
     <Layout>
         <Helmet>
             <title>Genesis - Новости</title>
-            <meta name="description" content="Landing Page"/>
+            <meta name="description" content="Articles Page"/>
         </Helmet>
 
         <BannerLanding title="Новости" description="Узнавай последние новости в IT вместе с нами"/>
