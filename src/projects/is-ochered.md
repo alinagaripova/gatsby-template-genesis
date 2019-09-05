@@ -3,6 +3,7 @@ name: "project"
 path: "/is-ochered/"
 order: 65
 title: "ИС Очередь"
+tags: ["go", "angular"]
 href: "http://умная-очередь.рф"
 description: Информационная система для обеспечения функций электронной очереди.
 participation:
@@ -20,6 +21,7 @@ longDesktopImg: ""
 desktopImg: ""
 tabletImg: ""
 phoneImg: ""
+
 ---
 
 От других подобных систем ИС Очередь отличается, в первую очередь (да

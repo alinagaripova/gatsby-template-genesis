@@ -3,6 +3,7 @@ name: "project"
 path: "/is-memorial/"
 order: 70
 title: "ИС Мемориал"
+tags: ["ruby", "ruby-on-rails", "angular"]
 href: "https://cemetery.kzn.ru/"
 description: "Система информационного управления захоронениями на примере г. Казань."
 participation:
@@ -22,6 +23,7 @@ longDesktopImg: ""
 desktopImg: ""
 tabletImg: ""
 phoneImg: ""
+
 ---
 
 ИС Мемориал призвана обеспечить информационную составляющую бизнес-процесса по оказанию ритуальных и пост-ритуальных услуг.

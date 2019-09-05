@@ -3,6 +3,7 @@ name: "project"
 path: "/react-gosuslugi/"
 order: 30
 title: "react-gosuslugi"
+tags: ["ruby", "react"]
 href: "http://headmade.pro/react-gosuslugi/"
 description: "react-gosuslugi"
 participation:
@@ -17,6 +18,7 @@ longDesktopImg: ""
 desktopImg: ""
 tabletImg: ""
 phoneImg: ""
+
 ---
 
 react-gosuslugi

@@ -3,6 +3,7 @@ name: "project"
 path: "/is-golos/"
 order: 90
 title: "ИС Голос"
+tags: ["ruby", "ruby-on-rails", "angular"]
 href: "https://flowers.kzn.ru/"
 description: "Система для проведения конкурсов и голосований среди граждан на примере \"цветочного фестиваля\" в г. Казань."
 participation:
@@ -16,7 +17,7 @@ statistics:
 - Сотни тысяч проголосовавших
 - Бессчётное число пойманных ботов
 technologies:
-- html, css, sass
+- html, css, sass   
 - ruby, ruby-on-rails
 - angular
 - postgres

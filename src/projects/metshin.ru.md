@@ -3,6 +3,7 @@ name: "project"
 path: "/metshin.ru/"
 order: 60
 title: "Официальный сайт мэра Казани"
+tags: ["ruby", "ruby-on-rails", "javascript"]
 href: "https://metshin.ru/"
 description: "Официальный сайт Метшина Ильсура Раисовича, мэра г.Казани"
 participation:
@@ -18,6 +19,7 @@ longDesktopImg: ""
 desktopImg: ""
 tabletImg: ""
 phoneImg: ""
+
 ---
 
 Официальный сайт Метшина Ильсура Раисовича, мэра г.Казани, представляет
