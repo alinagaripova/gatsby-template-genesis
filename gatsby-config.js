@@ -1,8 +1,8 @@
 module.exports = {
   pathPrefix: "/gatsby-template-genesis",
   siteMetadata: {
-    title: "Genesis",
-    description: "A Genesis ..."
+    title: "Genesis-разработка сайтов разработка сайтов",
+    description: "Genesis - разработка web-проектов, консалтинговые услуги, project resque"
   },
   plugins: [
       'gatsby-plugin-react-helmet',

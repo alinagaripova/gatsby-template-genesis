@@ -32,9 +32,11 @@ function Generic ({data}){
     console.log(frontmatter)
     return (
     <Layout>
-        <Helmet>
-            <title>Genesis - {frontmatter.title}</title>
-            <meta name="description" content="Generic Page" />
+        <Helmet htmlAttributes={{lang: "ru"}}>
+            <title>{frontmatter.title}</title>
+            <meta name="description" content={frontmatter.description} />
+            <meta name= 'keywords' content={frontmatter.technologies}/>
+            <meta charSet="utf-8" />
         </Helmet>
         <section id="two" className="spotlights">
             <section>

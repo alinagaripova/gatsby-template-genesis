@@ -25,9 +25,10 @@ function Generic ({ data }){
     const frontmatter = data.markdownRemark.frontmatter
     return(
     <Layout>
-        <Helmet>
-            <title>Genesis - {frontmatter.title}</title>
-            <meta name="description" content="Generic Page" />
+        <Helmet htmlAttributes={{lang: "ru"}}>
+            <title>{frontmatter.title}</title>
+            <meta name="description" content={frontmatter.title} />
+            <meta charSet="utf-8" />
         </Helmet>
 
         <div id="main" className="alt">

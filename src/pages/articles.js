@@ -29,9 +29,10 @@ export const query = graphql`
 
 const Articles = ({data: { allMarkdownRemark: { edges } }}) => (
     <Layout>
-        <Helmet>
-            <title>Genesis - Новости</title>
-            <meta name="description" content="Articles Page"/>
+        <Helmet htmlAttributes={{lang: "ru"}}>
+            <title>Новости</title>
+            <meta name="description" content="Последние новости из мира IT"/>
+            <meta charSet="utf-8" />
         </Helmet>
 
         <BannerLanding title="Новости" description="Узнавай последние новости в IT вместе с нами"/>

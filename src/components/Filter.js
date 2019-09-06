@@ -20,9 +20,10 @@ const Filter = () => (
                         <header className="major">
                             <h2>Наши проекты</h2>
                         </header>
-                        <h4>Фильтры</h4>
+                        <h4>Фильтры:</h4>
                         <div className="grid-wrapper">
                             <div className="col-6">
+                                {/*<p>По технологиям:</p>*/}
                                 <ul>
                                     {tags.map(tag => {
                                         return (

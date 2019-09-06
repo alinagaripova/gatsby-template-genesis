@@ -4,9 +4,10 @@ import Layout from '../components/layout'
 
 const Contact = (props) => (
     <Layout>
-        <Helmet>
-            <title>Genesis - Контакты</title>
-            <meta name="description" content="Generic Page"/>
+        <Helmet htmlAttributes={{lang: "ru"}}>
+            <title>Контакты</title>
+            <meta name="description" content="Эл.почта: genesis@genisis.com. Адрес : . Телефон: 000-00-00"/>
+            <meta charSet="utf-8" />
         </Helmet>
         <div id="main" className="alt">
             <section id="one">

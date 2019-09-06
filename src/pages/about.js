@@ -6,9 +6,9 @@ import pic11 from '../assets/images/pic11.jpg'
 
 const Generic = (props) => (
     <Layout>
-        <Helmet>
-            <title>Genesis - О нас</title>
-            <meta name="description" content="Generic Page" />
+        <Helmet htmlAttributes={{lang: "ru"}}>
+            <title>О нас</title>
+            <meta name="description" content="О компании Genesis. Такие-то разработчики, такие-то технологии" />
         </Helmet>
 
         <div id="main" className="alt">

@@ -33,48 +33,16 @@ const Projects = ({data: { allMarkdownRemark: { edges } }, pageContext, data}) =
 
     return(
         <Layout>
-            <Helmet>
-                <title>Genesis - Услуги и проекты</title>
-                <meta name="description" content="Projects Page"/>
+            <Helmet htmlAttributes={{lang: "ru"}}>
+                <title>Услуги и проекты</title>
+                <meta name="description" content="Наши проекты: ИС Голос, ИС Улуги, ИС Мнение"/>
+                <meta charSet="utf-8" />
             </Helmet>
 
             <BannerLanding title="Услуги и проекты" description="Мы используем современные технологии. Ниже представлены наши проекты."/>
 
             <div id="main">
                 <Filter/>
-                {/*<section id="one">*/}
-                    {/*<div className="inner">*/}
-                        {/*<header className="major">*/}
-                            {/*<h2>Наши проекты</h2>*/}
-                        {/*</header>*/}
-                        {/*<h4>Фильтры</h4>*/}
-                        {/*<div className="grid-wrapper">*/}
-                            {/*<div className="col-6">*/}
-                                {/*<ul>*/}
-                                    {/*{tags.map(tag => {*/}
-                                        {/*console.log(tag.fieldValue)*/}
-                                        {/*return (*/}
-                                            {/*<li><Link to={tag.fieldValue}>{tag.fieldValue}</Link></li>*/}
-                                        {/*)*/}
-                                    {/*})}*/}
-                                    {/*<li><Link to="/projects">все</Link></li>*/}
-                                {/*</ul>*/}
-                            {/*</div>*/}
-                            {/*/!*<div className="col-6">*!/*/}
-                            {/*/!*<div className="select-wrapper mb-5">*!/*/}
-                            {/*/!*<select name="demo-category" id="demo-category">*!/*/}
-                            {/*/!*<optgroup>По технологиям</optgroup>*!/*/}
-                            {/*/!*<option value="">- Category -</option>*!/*/}
-                            {/*/!*<option value="1">Manufacturing</option>*!/*/}
-                            {/*/!*<option value="1">Shipping</option>*!/*/}
-                            {/*/!*<option value="1">Administration</option>*!/*/}
-                            {/*/!*<option value="1">Human Resources</option>*!/*/}
-                            {/*/!*</select>*!/*/}
-                            {/*/!*</div>*!/*/}
-                            {/*/!*</div>*!/*/}
-                        {/*</div>*/}
-                    {/*</div>*/}
-                {/*</section>*/}
                 <section id="two" className="spotlights">
                     {edges.map(edge => {
                         const projects = edge.node.frontmatter

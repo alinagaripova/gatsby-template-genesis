@@ -12,12 +12,16 @@ import pic05 from '../assets/images/pic05.jpg'
 import pic06 from '../assets/images/pic06.jpg'
 
 class HomeIndex extends Component {
+
     render() {
         return (
             <Layout>
                 <Helmet
-                    title="Genesis - Главная"
-                    meta={[{ name: 'description', content: 'Sample' }, { name: 'keywords', content: 'sample, something' },]}>
+                    title="Главная"
+                    meta={[{ name: 'description', content: 'разработка web-проектов, консалтинговые услуги, project resque' },
+                            { name: 'keywords', content: 'разработка, сайт, продвижение,консалтинговые услуги' }]}
+                    htmlAttributes={{lang: "ru"}}>
+                    <meta charSet="utf-8" />
                 </Helmet>
                 <Banner />
                 <div id="main">
