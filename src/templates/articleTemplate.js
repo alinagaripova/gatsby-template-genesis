@@ -26,7 +26,7 @@ function Generic ({ data }){
     return(
     <Layout>
         <Helmet>
-            <title>Genesis - Новости</title>
+            <title>Genesis - {frontmatter.title}</title>
             <meta name="description" content="Generic Page" />
         </Helmet>
 
