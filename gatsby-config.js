@@ -1,11 +1,13 @@
 module.exports = {
   pathPrefix: "/gatsby-template-genesis",
   siteMetadata: {
-    title: "Genesis-разработка сайтов разработка сайтов",
-    description: "Genesis - разработка web-проектов, консалтинговые услуги, project resque"
+      siteUrl: `http://localhost:8000`, //добавить url сайта, когда появится
+      title: "Genesis-разработка сайтов разработка сайтов",
+      description: "Genesis - разработка web-проектов, консалтинговые услуги, project resque"
   },
   plugins: [
       'gatsby-plugin-react-helmet',
+      `gatsby-plugin-advanced-sitemap`, //генерация карты после gatsby build
       `gatsby-transformer-remark`,
       {
           resolve: `gatsby-source-filesystem`,
